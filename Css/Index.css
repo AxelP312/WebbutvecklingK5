@@ -1,3 +1,7 @@
+button{
+  display: none;
+}
+
 @media (min-width: 320px) and (max-width: 480px) 
 {
   html{
@@ -68,6 +72,7 @@
     text-align: center;
     font-size: 1em;
   }
+
   ul{
     display:none;
   }
@@ -122,6 +127,7 @@
   }
 
   h1{
+    display: none;
     font-size: 1.5em;
     text-align: center;
     grid-row: 1/2;
@@ -136,11 +142,13 @@
     grid-column: 2/3;
   }
   article{
+    display: none;
     grid-row: 3/7;
     grid-column: 2/3;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
   }
+
   ul{
     display:none;
   }
@@ -195,6 +203,7 @@
   }
 
   h1{
+    display: none;
     font-size: 1.5em;
     text-align: center;
     grid-row: 1/2;
@@ -209,15 +218,16 @@
     grid-column: 2/3;
   }
   article{
+    display: none;
     grid-row: 3/7;
     grid-column: 2/3;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
   }
+
   ul{
     display:none;
   }
-  
 }
 
 
@@ -270,7 +280,8 @@
      grid-column: 4/5;
   }
 
-  ul 
+
+  ul
   {
     grid-row: 1/6;
     grid-column: 1/2;
@@ -280,14 +291,14 @@
     width: 100%;
     height: 100%;
     background-color: white;
-    display: grid;
+    display: none;
   }
   
   li{
     text-align: center;
     font-size: 2em;
     display: block;
-    color: white;
+    color: black;
     padding: 16px 16px;
     text-decoration: none;
   }
@@ -296,16 +307,20 @@
     background-color: rgb(85, 81, 81);
     color: white;
   }
+
   h1{
     display: none;
   }
   h2{
+    color: white;
     display: none;
-    grid-column:2/5;
+    grid-column:2/6;
     font-size: 5em;
     text-align: center;
   }
   article{
+    color: white;
+    display: none;
     grid-column: 2/6;
     text-align: center;
     font-size: 1.5em;
@@ -362,7 +377,8 @@
      grid-column: 4/5;
   }
 
-  ul 
+
+  ul
   {
     grid-row: 1/6;
     grid-column: 1/2;
@@ -372,14 +388,14 @@
     width: 100%;
     height: 100%;
     background-color: white;
-    display: grid;
+    display: none;
   }
   
   li{
     text-align: center;
     font-size: 2em;
     display: block;
-    color: white;
+    color: black;
     padding: 16px 16px;
     text-decoration: none;
   }
@@ -388,20 +404,23 @@
     background-color: rgb(85, 81, 81);
     color: white;
   }
+  
   h1{
     display: none;
   }
   h2{
+    color: white;
     display: none;
-    grid-column:2/5;
+    grid-column:2/6;
     font-size: 5em;
     text-align: center;
   }
   article{
+    color: white;
+    display: none;
     grid-column: 2/6;
     text-align: center;
     font-size: 1.5em;
   }
-  
 }
 
