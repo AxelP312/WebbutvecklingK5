@@ -12,7 +12,7 @@ let SommarText = document.getElementById("SommarTitel");//Titel (h2)
 
 
 let HösPar = document.getElementById("HösPar"); //All text
-let HöstText = document.getElementById("VårTitel");//Titel (h2)
+let HöstText = document.getElementById("HöstTitel");//Titel (h2)
 
 
 let VinPar = document.getElementById("VinPar"); //All text
